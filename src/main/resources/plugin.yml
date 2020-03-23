@@ -1,0 +1,6 @@
+name: CdWorld
+main: com.ipedg.minecraft.CdWorld.Main
+version: 1.0
+author: q44920040
+commands:
+  CdWorld:
