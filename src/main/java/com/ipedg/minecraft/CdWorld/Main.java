@@ -44,8 +44,36 @@ public class Main extends JavaPlugin implements Listener {
                             if (hastime >=cdTime){
                                 playerscd.remove(cdPlayer);
                                 Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(),"mv tp "+player.getName() +" "+World);
-                            }else if (hastime>=(cdTime-15)){
-                                player.sendMessage(LastTimeMsg.replace("{s}",(hastime-20)+"-"));
+                            }else if (hastime==(cdTime-15)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","15"));
+                            }else if (hastime==(cdTime-14)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","14"));
+                            }else if (hastime==(cdTime-13)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","13"));
+                            }else if (hastime==(cdTime-12)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","12"));
+                            }else if (hastime==(cdTime-11)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","11"));
+                            }else if (hastime==(cdTime-10)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","10"));
+                            }else if (hastime==(cdTime-9)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","9"));
+                            }else if (hastime==(cdTime-8)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","8"));
+                            }else if (hastime==(cdTime-7)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","7"));
+                            }else if (hastime==(cdTime-6)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","6"));
+                            }else if (hastime==(cdTime-5)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","5"));
+                            }else if (hastime==(cdTime-4)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","4"));
+                            }else if (hastime==(cdTime-3)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","3"));
+                            }else if (hastime==(cdTime-2)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","2"));
+                            }else if (hastime==(cdTime-1)){
+                                player.sendMessage(LastTimeMsg.replace("{s}","1"));
                             }
                         }
                     }else {
